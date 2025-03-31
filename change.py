@@ -3,4 +3,4 @@ def change():
     money = 100
     
     print (f"Ingresar gasto:\n{expense}\nDinero recibido\n{money}\n")
-    print (f"\nVuelto\n\nPesos:\n{int((money-expense)//1)}\nCentavos:\n{int(((money-expense)%1)*100)}")
+    print (f"Vuelto\n\nPesos:\n{int((money-expense)//1)}\nCentavos:\n{int(((money-expense)%1)*100)}")
