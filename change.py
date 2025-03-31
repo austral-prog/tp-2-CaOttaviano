@@ -2,5 +2,5 @@ def change():
     expense = 23.75
     money = 100
     
-    print (f"The result of {x} comes first in the dictionary than {y} is {x>y}.")
-    print (f"The result of {y} comes first in the dictionary than {x} is {y>x}.")
+    print (f"Ingresar gasto:\n{expense}\nDinero recibido\n{money}\n")
+    print (f"\nVuelto\n\nPesos:\n{int((money-expense)//1)}\nCentavos:\n{int(((money-expense)%1)*100)}")
